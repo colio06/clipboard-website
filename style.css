@@ -1,0 +1,341 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Bai Jamjuree;
+  color: hsl(210, 10%, 33%);
+}
+h3,
+h2 {
+  width: 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+p {
+  width: 50%;
+  justify-self: center;
+  color: hsl(201, 11%, 66%);
+}
+
+boby {
+  width: 1440px;
+}
+header {
+  background-image:
+    url(./images/bg-header-desktop.png),
+    linear-gradient(rgba(255, 251, 251, 0), rgb(255, 255, 255));
+  text-align: center;
+  img {
+    padding: 50px;
+  }
+}
+.history {
+  text-align: center;
+  h2 {
+    padding: 30px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    a:nth-child(1) {
+      padding: 10px;
+      background-color: hsl(171, 66%, 44%);
+
+      border-radius: 30px;
+      margin: 20px;
+      text-decoration: none;
+      padding: 10px 50px;
+      color: white;
+      box-shadow: -10px 10px 10px hsla(171, 66%, 44%, 0.301);
+    }
+    a:nth-child(2) {
+      padding: 10px;
+      background-color: hsl(233, 100%, 69%);
+
+      border-radius: 30px;
+      margin: 20px;
+      text-decoration: none;
+      padding: 10px 50px;
+      color: white;
+      box-shadow: -10px 10px 10px hsla(233, 100%, 69%, 0.212);
+    }
+  }
+}
+
+.snippet {
+  .snippet-intro {
+    justify-self: center;
+    text-align: center;
+    p {
+      text-align: center;
+    }
+    h3 {
+      padding: 30px;
+    }
+  }
+  .snippet-div {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    padding: 100px;
+  }
+  img {
+    width: 600px;
+  }
+  .snippet-div-text {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    gap: 50px;
+  }
+  div {
+    justify-content: left;
+    p {
+      text-align: left;
+    }
+    h2,
+    h3 {
+      width: 50%;
+      justify-self: center;
+    }
+  }
+}
+.clipboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  h2 {
+    padding: 30px;
+  }
+  img {
+    width: 600px;
+    padding: 35px;
+    align-self: center;
+  }
+}
+.supercharge-div {
+  justify-content: center;
+  text-align: center;
+}
+.supercharge-intro {
+  text-align: center;
+  p {
+    padding: 30px 0px;
+  }
+}
+.supercharge-div {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  padding: 30px;
+  div {
+    width: 33%;
+    align-self: center;
+    p {
+      text-align: center;
+      width: 90%;
+    }
+    h2,
+    h3 {
+      width: 50%;
+      justify-self: center;
+    }
+  }
+  h3 {
+    padding: 30px 0px;
+  }
+}
+.compainies {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  padding: 50px;
+  .images {
+    width: 20%;
+    padding: 30px;
+  }
+}
+.clipboard-ios {
+  text-align: center;
+  h2 {
+    padding: 20px;
+  }
+  p {
+    padding: 10px;
+    text-align: center;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    a:nth-child(1) {
+      padding: 10px;
+      background-color: hsl(171, 66%, 44%);
+
+      border-radius: 30px;
+      margin: 20px;
+      text-decoration: none;
+      padding: 10px 50px;
+      color: white;
+      box-shadow: -10px 10px 10px hsla(171, 66%, 44%, 0.301);
+    }
+    a:nth-child(2) {
+      padding: 10px;
+      background-color: hsl(233, 100%, 69%);
+
+      border-radius: 30px;
+      margin: 20px;
+      text-decoration: none;
+      padding: 10px 50px;
+      color: white;
+      box-shadow: -10px 10px 10px hsla(233, 100%, 69%, 0.212);
+    }
+  }
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: space-around;
+  background-color: hsl(240, 3%, 92%);
+  padding: 50px;
+  img {
+    width: 50px;
+  }
+  .icons {
+    display: flex;
+    img {
+      width: 20px;
+      margin: 10px;
+    }
+  }
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  a {
+    padding: 20px;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  header {
+    width: 100%;
+  }
+  .history {
+    margin-top: 20px;
+    h2 {
+      width: 60%;
+    }
+    p {
+      width: 47%;
+      justify-self: center;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-self: center;
+    }
+  }
+  .snippet {
+    justify-self: center;
+    margin-top: 20px;
+    .snippet-div {
+      display: flex;
+      flex-direction: column;
+    }
+    img {
+      width: 400px;
+      align-self: center;
+    }
+    h3,
+    p {
+      width: 45%;
+      justify-self: center;
+    }
+    .snippet-div-text {
+      display: flex;
+      flex-direction: column;
+      h3,
+      h2,
+      p {
+        text-align: center;
+        width: 75%;
+      }
+    }
+  }
+  .clipboard {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    p {
+      width: 48%;
+    }
+    img {
+      width: 400px;
+      align-self: center;
+    }
+  }
+  .supercharge-intro {
+    text-align: center;
+    h2 {
+      width: 50%;
+      justify-self: center;
+    }
+  }
+  .supercharge-div {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    div {
+      align-self: center;
+      margin: 25px;
+      p {
+        width: 170%;
+      }
+      h3 {
+        width: 100%;
+      }
+    }
+  }
+  .compainies {
+    display: flex;
+    flex-direction: column;
+    .image {
+      justify-self: center;
+      width: 400px;
+    }
+  }
+  .clipboard-ios {
+    text-align: center;
+    width: 50%;
+    justify-self: center;
+    p {
+      width: 100%;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-self: center;
+    }
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      a {
+        padding: 20px;
+        text-decoration: none;
+      }
+    }
+  }
+}
